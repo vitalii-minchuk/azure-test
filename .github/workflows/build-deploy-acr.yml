@@ -1,7 +1,8 @@
 name: Build and Push Azure Container Registry
 on:
   push:
-    branch: main
+    branches:
+      - main
   workflow_dispatch:
 jobs:
   build:
