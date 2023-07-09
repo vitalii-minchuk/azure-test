@@ -8,7 +8,7 @@ export default function New() {
   return (
     <>
       <div>New</div>
-      <button className="mt-3 p-2 border rounded-md" onClick={fetchData}>fetch</button>
+      <button className="mt-3 p-2 border rounded-lg" onClick={fetchData}>fetch</button>
     </>
   )
 }
